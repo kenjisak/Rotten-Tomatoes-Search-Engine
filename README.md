@@ -1,51 +1,49 @@
-# COMP4601
-Group Members: 
-Leo Xu: 101149896
-Kenji Isak Laguan: 101160737
-Minh Nguyen: 101154921
+# 🍎🍅 Web Crawler & Search Engine Project
 
+**Group Members:**  
+- Leo Xu: 101149896  
+- Kenji Isak Laguan: 101160737  
+- Minh Nguyen: 101154921  
 
-Link for video: 
-https://youtu.be/ojB-zY3dfFw
+## ▶️ Video Demo
 
+[![Project Demo](https://img.youtube.com/vi/ojB-zY3dfFw/maxresdefault.jpg)](https://www.youtube.com/watch?v=ojB-zY3dfFw)
 
-Summary:
+## ✅ Summary of Completed Work
 
-TLDR: We finished everything and completed all the requirements.
+We successfully completed all the project requirements and functionalities as specified.
 
-Crawl and search fruits and personal websites (10 points each) - Completed
-    - fruits website and rotten tomatoes for the personal website
-    - fruits
-        - scraping and using the paragraphs and the title for searching in the index
-    - personal
-        - scraping movie info or actor info and their titles for searching in the index
-        - uses cast and crew links to crawl for more if on a movie page, or movies in the actor's filmography if on an actor page
-        - Only scrapes through 500 links
-Search functionality supports query parameters (20 points) - Completed
-    a) Supports 'q' for specifying the query
-        - has a search textbox for users to input their query on the home page
-    b) Supports 'boost' for boosting results using PageRank
-        - has radio buttons on the page, true or false, to boost the page rank
-    c) Supports 'limit' to specify the number of results
-        - has a limit textbox for users to input number of pages theyd like.
-        - theres a default 10 in the text box, which user can change
-            - if any value under 1 or over 50 was given, the server will default to 10 results
-Browser-based interface for searching and viewing results (5 points) - Completed
-    - functionality explained above for the web page
-    - when receiving the results, user can click on view details for each result to view the other information required below.
-    - when receiving the results, user can click on the original url link for each result to view the pages data.
-Search results include required information (5 points) - Completed
-    a) Includes the URL of the original page
-    b) Includes the title of the original page
-    c) Provides the PageRank of the page within the crawled network
-    d) Offers a link to view data for the page
-    e) Displays the computed search score for the page
-Viewing a page's data includes required information (5 points) - Completed
-    a) Includes URL
-    b) Includes Title
-    c) Lists incoming links
-    d) Lists outgoing links
-    e) Provides word frequency data
-Search service properly integrates with distributed search service (15 points) - Completed
+### 🍓 Crawling & Searching Fruits and Personal Websites (10 points each)  
+- Crawled a fruits website and Rotten Tomatoes as the personal website.  
+- Extracted paragraphs and titles for indexing on the fruits site.  
+- Scraped movie and actor info, including titles, cast, and crew from Rotten Tomatoes.  
+- Implemented a crawler that navigates up to 500 links per site.
 
-Overall, the functional requirements have been successfully completed, meeting the specified criteria. The non-functional requirements will be evaluated based on the demonstration recording, where understanding and quality of implementation will be assessed.
+### 🔍 Search Functionality Supporting Query Parameters (20 points)  
+- Implemented search with support for:  
+  - `q`: Query text entered by users in a search box on the homepage.  
+  - `boost`: Boolean option via radio buttons to enable PageRank boosting of results.  
+  - `limit`: Textbox input for users to specify the number of results (default 10; bounds 1-50). Invalid inputs revert to default.
+
+### 🖥️ Browser-Based Interface for Search and Results (5 points)  
+- User-friendly web interface for inputting queries and viewing search results.  
+- Results provide clickable “View Details” links showing extra page info.  
+- Original URLs in results link to the actual pages.
+
+### 📄 Search Results Include Required Information (5 points)  
+- Displays original page URL and title.  
+- Shows PageRank value within the crawl network.  
+- Provides link to detailed page data.  
+- Displays the computed search score.
+
+### 📊 Viewing a Page's Data Includes Required Information (5 points)  
+- Shows URL and title.  
+- Lists incoming and outgoing links.  
+- Displays word frequency data for the page.
+
+### ⚙️ Integration with Distributed Search Service (15 points)  
+- Proper integration achieved for distributed search functionalities.
+
+---
+
+Overall, all functional requirements have been fully met. Non-functional requirements will be evaluated based on the quality and understanding demonstrated in the project video walkthrough.
